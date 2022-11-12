@@ -1,22 +1,20 @@
-body{
-    font-family: Arial;
-    font-size: 15pt;
-    font-style: normal;
-    text-align: center;
-    background-color: rgb(54, 53, 53);
-
+body {
+   font-family: Arial;
+   font-size: 15pt;
+   font-style: normal;
+   text-align: center;
+   background-color: rgb(54, 53, 53);
 }
 
-header{
-    color: rgb(220, 243, 13);
-    text-shadow: 5px 5px 10px rgb(0, 0, 0);
-    justify-content: start;
-    filter: brightness(140%);
-    font-family:sans-serif;
+header {
+   color: rgb(220, 243, 13);
+   text-shadow: 5px 5px 10px rgb(0, 0, 0);
+   justify-content: start;
+   filter: brightness(140%);
+   font-family: sans-serif;
 }
 
-
-#sec_1{
+#sec_1 {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
@@ -27,87 +25,95 @@ header{
     margin-bottom: 10px;
 }
 
-#calculo{
-    padding: 3px;
-    margin: 3px;
-    font-weight: bold;
+#calculo {
+   padding: 3px;
+   margin: 3px;
+   font-weight: bold;
 }
 
-#res_delta_sub{
-
-    margin-bottom: 3px;
+#res_delta_sub {
+   margin-bottom: 3px;
 }
 
-#res_delta{
-    margin-top: 3px;
+#res_delta {
+   margin-top: 3px;
 }
 
-#numberA, #numberB, #numberC{
-    width: 185px;
-    height: 20px;
-    font-size:18px;
-    border-style:hidden;
-    font-family:sans-serif;
-    padding:6px;
-    border-width:3px;
-    border-radius:16px;
-    background-color: rgb(228, 226, 226);
-
+#numberA,
+#numberB,
+#numberC {
+   width: 185px;
+   height: 20px;
+   font-size: 18px;
+   border-style: hidden;
+   font-family: sans-serif;
+   padding: 6px;
+   border-width: 3px;
+   border-radius: 16px;
+   background-color: rgb(228, 226, 226);
 }
 
-#button_one{
-    border: 1px solid rgb(147, 161, 16);
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    background-color: unset;
-    font-size: 18pt;
-    font-weight: bolder;
-    margin-bottom: 3px;
+#button_one {
+   border: 1px solid rgb(147, 161, 16);
+   padding: 5px;
+   margin: 5px;
+   border-radius: 10px;
+   background-color: unset;
+   font-size: 18pt;
+   font-weight: bolder;
+   margin-bottom: 3px;
+   transition: all 0.4s;
 }
 
-#button_two{
-    display: none;
-    border: 1px solid rgb(147, 161, 16);
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    background-color: unset;
-    font-size: 18pt;
-    font-weight: bolder;
-    margin-bottom: 3px;
+#button_one:hover {
+   transform: scale(1.05);
 }
 
-#button_one:hover{
-    background-color:rgb(184, 202, 20);
-    color: white;
-    cursor: pointer;
-    transition: 0.4s;
-
+#button_two {
+   display: none;
+   border: 1px solid rgb(147, 161, 16);
+   padding: 5px;
+   margin: 5px;
+   border-radius: 10px;
+   background-color: unset;
+   font-size: 18pt;
+   font-weight: bolder;
+   margin-bottom: 3px;
+   transition: all 0.4s;
 }
 
-#button_two:hover{
-    background-color:rgb(184, 202, 20);
-    color: white;
-    cursor: pointer;
-
-    transition: 0.4s;
+#button_two:hover {
+   transform: scale(1.05);
 }
 
-#x1{
-    margin-bottom: 3px;
+#button_one:hover {
+   background-color: rgb(184, 202, 20);
+   color: white;
+   cursor: pointer;
+   transition: 0.4s;
 }
-#x2{
-    margin-top: 3px;
+
+#button_two:hover {
+   background-color: rgb(184, 202, 20);
+   color: white;
+   cursor: pointer;
+
+   transition: 0.4s;
 }
 
-footer{
+#x1 {
+   margin-bottom: 3px;
+}
+#x2 {
+   margin-top: 3px;
+}
 
-    font-style: italic;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
-    }
+footer {
+   font-style: italic;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+}
 
-footer a{
-    text-decoration: none;
-    color: white;
+footer a {
+   text-decoration: none;
+   color: white;
 }
