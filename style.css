@@ -65,10 +65,6 @@ header {
    transition: all 0.4s;
 }
 
-#button_one:hover {
-   transform: scale(1.05);
-}
-
 #button_two {
    display: none;
    border: 1px solid rgb(147, 161, 16);
@@ -82,23 +78,20 @@ header {
    transition: all 0.4s;
 }
 
-#button_two:hover {
-   transform: scale(1.05);
-}
-
 #button_one:hover {
    background-color: rgb(184, 202, 20);
    color: white;
    cursor: pointer;
    transition: 0.4s;
+   transform: scale(1.05);
 }
 
 #button_two:hover {
    background-color: rgb(184, 202, 20);
    color: white;
    cursor: pointer;
-
    transition: 0.4s;
+   transform: scale(1.05);
 }
 
 #x1 {
@@ -107,7 +100,6 @@ header {
 #x2 {
    margin-top: 3px;
 }
-
 footer {
    font-style: italic;
    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
