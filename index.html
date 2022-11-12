@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara Three</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Bhaskara</h1>
+    </header>
+        <section id="sec_1">
+            <div>
+                <h2><strong>&Delta;= b² - 4.a.c</strong></h2>
+                <p id='calculo'>Valor de B: <input type="number" name="numberB" id="numberB" placeholder="Forneça um número"></p>
+                <p id='calculo'>Valor de A: <input type="number" name="numberA" id="numberA" placeholder="Forneça um número"></p>
+                <p id='calculo'>Valor de C: <input type="number" name="numberC" id="numberC" placeholder="Forneça um número"></p>
+                <p><input type="button" value="Calcular Delta" onclick="deltaCalc()" id='button_one'></p>
+            </div>
+            <div>
+                <p id = 'res_delta_sub'></p>
+                <p id = 'res_delta'></p>
+            </div>
+            <div id = 'butão'>
+                <input type="button" value="Calcular Raízes" onclick="raizCalc()" id = 'button_two'>
+            </div>
+            <div>
+                <p id = 'x1'></p>
+                <p id = 'x2'></p>
+            </div>
+        </section>
+    <footer>
+        <a href="https://www.instagram.com/gusttaxyx" target="_blank">&copy;GusttaXyX</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
