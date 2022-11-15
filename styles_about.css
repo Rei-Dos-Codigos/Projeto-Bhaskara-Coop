@@ -1,0 +1,233 @@
+@font-face {
+	font-family: "Growland Bold";
+	src: url(Growland\ Bold.otf);
+}
+
+body{
+	background-color:#1E1E1E;
+}
+
+
+.retangle1 { 
+	background-color:rgba(255, 255, 255, 1);
+	opacity:0.85;
+	width:384px;
+	height:468px;
+	position:absolute;
+	left: 143px;
+	top:129px;
+	border-radius: 25px;
+}
+
+.profilepic_1 { 
+	border-radius:500px;
+	width: 170px;
+	height: 170px;
+	position:absolute;
+	left: 256px;
+	top:45px;
+	background-image:url(images/ellipse_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.name_1 { 
+	color:rgba(22.312493920326233, 143.3099940419197, 255, 1);
+	width:384px;
+	height:35px;
+	position:absolute;
+	left:143px;
+	top:252px;
+	font-family:Growland Bold;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0.
+}
+
+.insta_1 { 
+	color:rgba(22.312493920326233, 143.3099940419197, 255, 1);
+	width:182px;
+	height:30px;
+	position:absolute;
+	left:277px;
+	top:352px;
+	font-family:Growland Bold;
+	text-align:center;
+	font-size:31px;
+	letter-spacing:0;
+	text-decoration: none;
+}
+
+.github_1 { 
+	color:rgba(22.312493920326233, 143.3099940419197, 255, 1);
+	width:182px;
+	height:46px;
+	position:absolute;
+	left:252px;
+	top:447px;
+	font-family:Growland Bold;
+	text-align:center;
+	font-size:31px;
+	letter-spacing:0;
+	text-decoration: none;
+}
+
+.insta_icon_1 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:224px;
+	top:342px;
+	background-image:url(images/insta_icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.github_icon_1 { 
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:224px;
+	top:433px;
+	background-image:url(images/github_icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+.retangle2 { 
+	background-color:rgba(255, 255, 255, 1);
+	opacity:0.8500000238418579;
+	width:384px;
+	height:468px;
+	position:absolute;
+	left: 750px;
+	top:129px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+
+.profilepic_2 { 
+	border-radius:500px;
+	width: 170px;
+	height: 170px;
+	position:absolute;
+	left:865px;
+	top:45px;
+	background-image:url(images/ellipse_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.name_2 { 
+	color:rgba(58.878972977399826, 226.31249696016312, 44.319529831409454, 1);
+	width:225px;
+	height:97px;
+	position:absolute;
+	left:839px;
+	top:241px;
+	font-family:Growland Bold;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+	line-height: 29px;
+}
+.insta_2 { 
+	color:rgba(58.878972977399826, 226.31249696016312, 44.319529831409454, 1);
+	width:82px;
+	height:15px;
+	position:absolute;
+	left:898px;
+	top:353px;
+	font-family:Growland Bold;
+	text-align:center;
+	font-size:31px;
+	letter-spacing:0;
+	text-decoration: none;
+}
+
+.github_2 { 
+	color:rgba(58.878972977399826, 226.31249696016312, 44.319529831409454, 1);
+	width:68px;
+	height:16px;
+	position:absolute;
+	left:898px;
+	top:433px;
+	font-family:Growland Bold;
+	text-align:center;
+	font-size:31px;
+	letter-spacing:0;
+	text-decoration: none;
+}
+
+.twitter_2 { 
+	color:rgba(58.878972977399826, 226.31249696016312, 44.319529831409454, 1);
+	width:62px;
+	height:11px;
+	position:absolute;
+	left:898px;
+	top:513px;
+	font-family:Growland Bold;
+	text-align:center;
+	font-size:31px;
+	letter-spacing:0;
+	text-decoration: none;
+}
+
+.insta_icon_2 { 
+	background-color:rgba(255, 255, 255, 0);
+	width: 50px;
+	height: 50px;
+	position:absolute;
+	left:832px;
+	top:342px;
+	background-image:url(images/insta_icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.github_icon_2 { 
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:832px;
+	top:422px;
+	background-image:url(images/github_icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.twitter_icon_2 { 
+	width:50px;
+	height:50px;
+	position:absolute;
+	left: 832px;
+	top:502px;
+	background-image:url(images/twitter_icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+footer{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+}
+/*.e10_120 { 
+	color:rgba(246.49999290704727, 223.80145490169525, 19.514582455158234, 1);
+	width:457px;
+	height:98px;
+	position:absolute;
+	left:0px;
+	top:25px;
+	font-family:Growland Bold;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+*/
